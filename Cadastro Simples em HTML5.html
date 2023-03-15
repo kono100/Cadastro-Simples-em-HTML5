@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+
+
+    <div style="text-align: center;">
+
+
+        <H2>CADASTRO</H2>
+
+
+
+    </div>
+
+
+
+
+</head>
+
+<body>
+
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+
+
+            <legend><strong>Dados Pessoais</legend></strong>
+
+            <label>Nome :</label>
+            <input type="text" id="name=" name" required>
+
+            <label>E-mail :</label>
+            <input type="email" id="email" name="email" />
+
+            <label>Senha :</label>
+            <input type="password" id="Senha" name="Senha" required />
+
+
+            <label>Sexo: </label>
+            <label>
+                <input type="radio" name="Sexo" value="EF" required>Masculino
+            </label>
+            <input type="radio" name="Sexo" value="EM" required>Feminino
+            </label>
+
+
+        </fieldset>
+
+        <br>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+
+                <legend><strong>Endereço</legend></strong>
+
+                <label>CEP :</label>
+                <input type="text" id="CEP" required>
+
+
+                <label>longadouro :</label>
+                <input type="text" id="CEP" required>
+
+
+                <label>Numero :</label>
+                <input type="number" id="Numero" required>
+
+
+                <label>Complemento :</label>
+                <input type="text" id="Complemento" required>
+
+
+            </fieldset>
+
+            <br>
+
+            <form action="" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend><strong>Dados Financeiros</legend></strong>
+
+
+
+
+                    <label>Tipo :</label>
+                    <label>
+                        <input type="radio" name="Tipo" value="EF" required>Nacional
+                    </label>
+                    <input type="radio" name="Tipo" value="EM" required>Internacional
+                    </label>
+
+
+                    <Label>Bandeira :</Label>
+                    <select name="Bandeira" id="Bandeira">
+                        <option value="Master">MasterCard</option>
+                        <option value="Visa">Visa</option>
+                        <option value="American Express">American Express</option>
+                        <option value="Caixa">Caixa</option>
+                    </select>
+
+                    <label>Numero do Cartão :</label>
+                    <input type="number" id="numero do Cartão" required>
+
+
+                    <label>Validade :</label>
+                    <input type="month" id="Validade" name="Validade" required />
+
+
+                </fieldset>
+
+                <div style="text-align: center;">
+
+                    <br>
+                    <br>
+
+                    <input type="submit" id="btnEnviar" value="Enviar">
+                    <input type="reset" id="btnLimpar" value="Limpar">
+
+                </div>
+</body>
+
+</html>
